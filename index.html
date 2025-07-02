@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextVideo - Скачать</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-video"></i>
+                <h1>TextVideo</h1>
+            </div>
+            <nav class="nav">
+                <a href="#features">Возможности</a>
+                <a href="#download">Скачать</a>
+                <a href="#support">Поддержка</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Преобразуйте текст в видео</h2>
+                    <p>Мощное приложение для создания видеороликов из текста с профессиональными эффектами и анимацией</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Скачиваний</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">Рейтинг</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Бесплатно</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="app-preview">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features">
+                <h3>Основные возможности</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-magic"></i>
+                        <h4>Автоматическая анимация</h4>
+                        <p>Создавайте красивые анимированные видео из любого текста</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-palette"></i>
+                        <h4>Настройка стилей</h4>
+                        <p>Множество шрифтов, цветов и эффектов для персонализации</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Быстрый экспорт</h4>
+                        <p>Экспортируйте видео в высоком качестве за считанные секунды</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Безопасность</h4>
+                        <p>100% безопасное ПО без вирусов и рекламы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="download" class="download-section">
+                <div class="download-card">
+                    <div class="download-header">
+                        <i class="fas fa-download"></i>
+                        <h3>Скачать TextVideo.exe</h3>
+                        <p>Версия 2.1.0 • Windows 10/11 • 45.2 MB</p>
+                    </div>
+                    <div class="download-info">
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Проверено антивирусом</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Цифровая подпись</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Бесплатно навсегда</span>
+                        </div>
+                    </div>
+                    <button class="download-btn" onclick="downloadFile()">
+                        <i class="fas fa-download"></i>
+                        Скачать сейчас
+                    </button>
+                    <p class="download-note">Начнется автоматическое скачивание</p>
+                </div>
+            </section>
+
+            <section class="system-requirements">
+                <h3>Системные требования</h3>
+                <div class="requirements-grid">
+                    <div class="requirement">
+                        <strong>ОС:</strong> Windows 10/11 (64-bit)
+                    </div>
+                    <div class="requirement">
+                        <strong>ОЗУ:</strong> Минимум 4 GB
+                    </div>
+                    <div class="requirement">
+                        <strong>Место:</strong> 100 MB свободного места
+                    </div>
+                    <div class="requirement">
+                        <strong>GPU:</strong> DirectX 11 совместимая
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TextVideo</h4>
+                    <p>Создавайте профессиональные видео из текста</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Обратная связь</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TextVideo. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
